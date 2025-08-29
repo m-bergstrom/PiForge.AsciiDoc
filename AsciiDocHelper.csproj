@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <LangVersion>latestmajor</LangVersion>
+        <Nullable>enable</Nullable>
+        <Authors>AsciiDoc Helper</Authors>
+        <Description>Provides basic support for generating AsciiDoc content</Description>
+        <Copyright>© 2025 Matthew Bergstrom</Copyright>
+        <PackageProjectUrl>https://github.com/m-bergstrom/AsciiDocHelper</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>readme.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/m-bergstrom/AsciiDocHelper</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>AsciiDoc documentation</PackageTags>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageVersion>1.0.0</PackageVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="doc\readme.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>
