@@ -15,7 +15,7 @@
         <RepositoryType>git</RepositoryType>
         <PackageTags>AsciiDoc documentation</PackageTags>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <PackageVersion>1.0.1-alpha2</PackageVersion>
+        <PackageVersion>1.0.1</PackageVersion>
         <PackageId>PiForge.AsciiDoc</PackageId>
     </PropertyGroup>
 
