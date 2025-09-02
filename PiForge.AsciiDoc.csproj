@@ -24,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="PiForge.Branding" Version="1.0.1-alpha05" />
+      <PackageReference Include="PiForge.Branding" Version="1.0.2" />
     </ItemGroup>
 
 </Project>
