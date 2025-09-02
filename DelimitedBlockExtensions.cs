@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
-using AsciiDocHelper.AsciiDocTypes;
-using AsciiDocHelper.AsciiDocTypes.SyntaxHighligherLanguageNames;
-using AsciiDocHelper.AsciiDocTypes.Tables;
-using AsciiDocHelper.Blocks;
+using PiForge.AsciiDoc.AsciiDocTypes;
+using PiForge.AsciiDoc.AsciiDocTypes.SyntaxHighligherLanguageNames;
+using PiForge.AsciiDoc.AsciiDocTypes.Tables;
+using PiForge.AsciiDoc.Blocks;
 
-namespace AsciiDocHelper;
+namespace PiForge.AsciiDoc;
 
 /// <summary>
 /// Extension methods for creating delimited AsciiDoc blocks that
@@ -171,7 +171,7 @@ public static class DelimitedBlockExtensions
     /// final rows as header and/or footer rows</param>
     /// <param name="title">The title of the table</param>
     /// <param name="outerTableBlock">The return from an outer
-    /// <see cref="CreateTableBlock(System.Text.StringBuilder,string[],AsciiDocHelper.AsciiDocTypes.Tables.TableHeaderFooter,string?,System.IDisposable?,string[])"/>
+    /// <see cref="CreateTableBlock(System.Text.StringBuilder,string[],PiForge.AsciiDoc.AsciiDocTypes.Tables.TableHeaderFooter,string?,System.IDisposable?,string[])"/>
     /// call</param>
     /// <param name="attributes">Additional attributes that affect
     /// the table</param>
@@ -200,7 +200,7 @@ public static class DelimitedBlockExtensions
     /// <p>To invoke AsciiDoc's limited support for nested tables
     /// (<b>don't</b>), simply use the return value from the outer
     /// table's
-    /// <see cref="CreateTableBlock(System.Text.StringBuilder,string[],AsciiDocHelper.AsciiDocTypes.Tables.TableHeaderFooter,string?,System.IDisposable?,string[])"/>
+    /// <see cref="CreateTableBlock(System.Text.StringBuilder,string[],PiForge.AsciiDoc.AsciiDocTypes.Tables.TableHeaderFooter,string?,System.IDisposable?,string[])"/>
     /// call as the <paramref name="outerTableBlock"/> parameter
     /// value.</p>
     /// <code>
@@ -243,7 +243,7 @@ public static class DelimitedBlockExtensions
     /// final rows as header and/or footer rows</param>
     /// <param name="title">The title of the table</param>
     /// <param name="outerTableBlock">The return from an outer
-    /// <see cref="CreateTableBlock(System.Text.StringBuilder,ColSpec[],AsciiDocHelper.AsciiDocTypes.Tables.TableHeaderFooter,string?,System.IDisposable?,string[])"/>
+    /// <see cref="CreateTableBlock(System.Text.StringBuilder,ColSpec[],PiForge.AsciiDoc.AsciiDocTypes.Tables.TableHeaderFooter,string?,System.IDisposable?,string[])"/>
     /// call</param>
     /// <param name="attributes">Additional attributes that affect
     /// the table</param>
@@ -254,7 +254,7 @@ public static class DelimitedBlockExtensions
     /// <p>To invoke AsciiDoc's limited support for nested tables
     /// (<b>don't</b>), simply use the return value from the outer
     /// table's
-    /// <see cref="CreateTableBlock(System.Text.StringBuilder,ColSpec[],AsciiDocHelper.AsciiDocTypes.Tables.TableHeaderFooter,string?,System.IDisposable?,string[])"/>
+    /// <see cref="CreateTableBlock(System.Text.StringBuilder,ColSpec[],PiForge.AsciiDoc.AsciiDocTypes.Tables.TableHeaderFooter,string?,System.IDisposable?,string[])"/>
     /// call as the <paramref name="outerTableBlock"/> parameter
     /// value.</p>
     /// <code>

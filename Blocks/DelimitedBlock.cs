@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace AsciiDocHelper.Blocks;
+namespace PiForge.AsciiDoc.Blocks;
 
 /// <summary>
 /// Represents an AsciiDoc block element. When created with a

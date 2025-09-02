@@ -1,4 +1,4 @@
-﻿namespace AsciiDocHelper.AsciiDocTypes.Tables;
+﻿namespace PiForge.AsciiDoc.AsciiDocTypes.Tables;
 
 /// <summary>
 /// The style of an AsciiDoc table column specification

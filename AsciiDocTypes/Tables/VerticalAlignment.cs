@@ -1,4 +1,4 @@
-﻿namespace AsciiDocHelper.AsciiDocTypes.Tables;
+﻿namespace PiForge.AsciiDoc.AsciiDocTypes.Tables;
 
 /// <summary>
 /// The vertical alignment of an AsciiDoc table column specification

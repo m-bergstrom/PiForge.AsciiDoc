@@ -1,4 +1,4 @@
-﻿namespace AsciiDocHelper.AsciiDocTypes.SyntaxHighligherLanguageNames;
+﻿namespace PiForge.AsciiDoc.AsciiDocTypes.SyntaxHighligherLanguageNames;
 
 /// <summary>
 /// Represents the names of lexers supported by the

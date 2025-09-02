@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace AsciiDocHelper;
+namespace PiForge.AsciiDoc;
 
 /// <summary>
 /// Extension methods for authoring AsciiDoc lines more easily
@@ -14,7 +14,7 @@ public static class LineExtensions
     /// <param name="builder">The string builder to create the table
     /// row with</param>
     /// <param name="outerTableBlock">The return from an outer
-    /// <see cref="DelimitedBlockExtensions.CreateTableBlock(System.Text.StringBuilder,AsciiDocHelper.AsciiDocTypes.Tables.ColSpec[],AsciiDocHelper.AsciiDocTypes.Tables.TableHeaderFooter,string?,System.IDisposable?,string[])"/>
+    /// <see cref="DelimitedBlockExtensions.CreateTableBlock(System.Text.StringBuilder,PiForge.AsciiDoc.AsciiDocTypes.Tables.ColSpec[],PiForge.AsciiDoc.AsciiDocTypes.Tables.TableHeaderFooter,string?,System.IDisposable?,string[])"/>
     /// call</param>
     /// <param name="cellsContents">The content of the row's cells</param>
     /// <returns>The builder used to create the table row</returns>

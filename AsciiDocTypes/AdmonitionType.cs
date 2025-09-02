@@ -1,4 +1,4 @@
-﻿namespace AsciiDocHelper.AsciiDocTypes;
+﻿namespace PiForge.AsciiDoc.AsciiDocTypes;
 
 /// <summary>
 /// Specifies the type of an AsciiDoc admonition

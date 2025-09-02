@@ -1,4 +1,4 @@
-﻿namespace AsciiDocHelper.AsciiDocTypes.Tables;
+﻿namespace PiForge.AsciiDoc.AsciiDocTypes.Tables;
 
 /// <summary>
 /// Used to customize the width, alignment, and formatting of
@@ -13,13 +13,13 @@ public struct ColSpec
 
     /// <summary>
     /// Gets the horizontal alignment (&lt;, ^, &gt;) for this column
-    /// specification (see <see cref="AsciiDocHelper.AsciiDocTypes.Tables.HorizontalAlignment"/>)
+    /// specification (see <see cref="PiForge.AsciiDoc.AsciiDocTypes.Tables.HorizontalAlignment"/>)
     /// </summary>
     public string HorizontalAlignment { get; }
 
     /// <summary>
     /// Gets the vertical alignment (^, ., v) for this column
-    /// specification (see <see cref="AsciiDocHelper.AsciiDocTypes.Tables.VerticalAlignment"/>)
+    /// specification (see <see cref="PiForge.AsciiDoc.AsciiDocTypes.Tables.VerticalAlignment"/>)
     /// </summary>
     public string VerticalAlignment { get; }
 
@@ -30,7 +30,7 @@ public struct ColSpec
 
     /// <summary>
     /// Gets the style (<i>e.g.</i>, a, d, h) for this column
-    /// specification (see <see cref="AsciiDocHelper.AsciiDocTypes.Tables.Style"/>)
+    /// specification (see <see cref="PiForge.AsciiDoc.AsciiDocTypes.Tables.Style"/>)
     /// </summary>
     public string Style { get; }
 
@@ -41,15 +41,15 @@ public struct ColSpec
     /// specification for</param>
     /// <param name="horizontalAlignment">The horizontal alignment
     /// (&lt;, ^, &gt;) for this column specification
-    /// (see <see cref="AsciiDocHelper.AsciiDocTypes.Tables.HorizontalAlignment"/>)</param>
+    /// (see <see cref="PiForge.AsciiDoc.AsciiDocTypes.Tables.HorizontalAlignment"/>)</param>
     /// <param name="verticalAlignment">The vertical alignment
     /// (^, ., v) for this column specification
-    /// (see <see cref="AsciiDocHelper.AsciiDocTypes.Tables.VerticalAlignment"/>)</param>
+    /// (see <see cref="PiForge.AsciiDoc.AsciiDocTypes.Tables.VerticalAlignment"/>)</param>
     /// <param name="width">The relative width for this column
     /// specification</param>
     /// <param name="style">The style (<i>e.g.</i>, a, d, h) for this
     /// column specification
-    /// (see <see cref="AsciiDocHelper.AsciiDocTypes.Tables.Style"/>)</param>
+    /// (see <see cref="PiForge.AsciiDoc.AsciiDocTypes.Tables.Style"/>)</param>
     public ColSpec(int? multiplier = null, string? horizontalAlignment = null,
         string? verticalAlignment = null,
         int? width = null, string? style = null)

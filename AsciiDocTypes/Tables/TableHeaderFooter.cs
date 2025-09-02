@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AsciiDocHelper.AsciiDocTypes.Tables;
+namespace PiForge.AsciiDoc.AsciiDocTypes.Tables;
 
 /// <summary>
 /// Represents the presence or absence of header and footer

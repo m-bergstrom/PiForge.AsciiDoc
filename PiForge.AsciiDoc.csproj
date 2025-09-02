@@ -5,21 +5,26 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <LangVersion>latestmajor</LangVersion>
         <Nullable>enable</Nullable>
-        <Authors>AsciiDoc Helper</Authors>
+        <Authors>m-bergstrom</Authors>
         <Description>Provides basic support for generating AsciiDoc content</Description>
         <Copyright>© 2025 Matthew Bergstrom</Copyright>
-        <PackageProjectUrl>https://github.com/m-bergstrom/AsciiDocHelper</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/m-bergstrom/PiForge.AsciiDoc</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageReadmeFile>readme.md</PackageReadmeFile>
-        <RepositoryUrl>https://github.com/m-bergstrom/AsciiDocHelper</RepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/m-bergstrom/PiForge.AsciiDoc</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>AsciiDoc documentation</PackageTags>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>1.0.1-alpha2</PackageVersion>
+        <PackageId>PiForge.AsciiDoc</PackageId>
     </PropertyGroup>
 
     <ItemGroup>
-      <None Include="doc\readme.md" Pack="true" PackagePath="\" />
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="PiForge.Branding" Version="1.0.1-alpha05" />
     </ItemGroup>
 
 </Project>
